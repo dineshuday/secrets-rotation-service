@@ -17,7 +17,7 @@ Designed for internal teams to easily integrate secret management without direct
 ---
 
 ## 🏗 Architecture
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram](/architecture.png)
 
 **Flow:**
 1. Client authenticates via JWT and calls `/get-secret/{name}` or `/rotate-secret/{name}`.
